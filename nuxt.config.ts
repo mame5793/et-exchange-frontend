@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "CurrencyExchange",
+      title: "exethiopia",
       link: [
         {
           rel: "icon",
