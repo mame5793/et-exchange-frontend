@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply m-0 p-0 box-border bg-gray-900; /* Apply Tailwind utilities */
+}
+.arrow-path {
+    fill: url(#gradient-color);
+  }
+:root {
+    --gradient-color: linear-gradient(to right, #58e274, #75e677);
+    --bg-money-color:black;
+  }
+  select:hover{
+    cursor: pointer;
+    }
+ 
+
