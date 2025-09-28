@@ -1,75 +1,89 @@
-# Nuxt 3 Minimal Starter
+# ExEthiopia Frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ExEthiopia Frontend is a modern web application built with Nuxt 3 that provides up-to-date foreign exchange rates from Ethiopian banks.
+It is designed to be fast, responsive, and user-friendly, making it easy for anyone to quickly compare buying and selling rates across multiple banks.
 
-## Setup
+🔗 **Live Demo**: [https://exethiopia-frontend.vercel.app](https://exethiopia-frontend.vercel.app)
 
-Make sure to install the dependencies:
+---
+
+## 🚀 Features
+
+* ✅ Built with [Nuxt 3](https://nuxt.com/)
+* 🎨 Styled using [Tailwind CSS](https://tailwindcss.com/) and css
+* 🏦 Displays exchange rates from multiple Ethiopian banks
+* 🔄 Smooth scrolling ticker with [GSAP](https://greensock.com/gsap/) animations
+* 🌐 Deployed seamlessly on [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Project Structure
+
+```
+exethiopia-frontend/
+├── assets/          # Styles & assets
+├── components/      # Vue components
+├── data/            # Bank data (store.js)
+├── public/images/   # Bank logos
+├── pages/           # Nuxt pages
+├── nuxt.config.ts   # Nuxt configuration
+└── package.json     # Dependencies & scripts
+```
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1️⃣ Clone the Repository
 
 ```bash
-# npm
+git clone https://github.com/mame5793/exethiopia-frontend.git
+cd exethiopia-frontend
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 3️⃣ Run in Development
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+App will be available at: [http://localhost:3000](http://localhost:3000)
 
-Build the application for production:
+### 4️⃣ Build for Production
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+## 🌐 Deployment
+
+This project is deployed with **Vercel**.
+Every push to the `main` branch automatically triggers a new deployment.
+
+Deployment link:
+👉 [https://exethiopia-frontend.vercel.app](https://exethiopia-frontend.vercel.app)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your app here for better presentation.)
+
+---
+
+## 👨‍💻 Author
+
+**Mahammed**
+📧 Contact: mahammed5793@gmail.com
+GitHub: https://github.com/mame5793
+
+---
