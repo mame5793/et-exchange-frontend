@@ -58,13 +58,14 @@ import { banks } from '../data/store.js';
 const items = ref(
   banks.map(bank => ({
     name: bank.name,
-    imgUrl: `/images/${bank.name.replace(' ', '')}.png`,
+    imgUrl: `/images/${bank.name.replace(/\s+/g, '').toLowerCase()}.png`,
     buyValue: bank.USD.buying,
     sellValue: bank.USD.selling,
     buyChangePercent: bank.USD.buyChanges,
     sellChangePercent: bank.USD.saleChanges,
   }))
 );
+
 
 const sortedItems = computed(() => {
   return items.value.sort((a, b) => {
